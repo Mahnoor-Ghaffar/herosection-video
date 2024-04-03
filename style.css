@@ -1,0 +1,55 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+    padding: 399px 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 50vh;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(assets/backgroud.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1320px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+    padding: 450px 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 50vh;
+    width: 100vw;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
